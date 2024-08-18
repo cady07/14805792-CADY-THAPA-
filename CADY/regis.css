@@ -1,0 +1,79 @@
+/* Center the header content */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa; /* Adjust the background color as needed */
+}
+
+/* Style the logo-text container */
+.logo-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* Stack the logo and title vertically */
+}
+
+/* Adjust the logo image */
+.logo {
+    width: 80px; /* Keeps the logo compact */
+    margin-bottom: 10px; /* Adds space below the logo */
+}
+
+/* Style the title text */
+.logo-text span {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #4a154b; /* Matches the color scheme of the registration form */
+}
+
+/* Registration Page Styles */
+.registration-section {
+    background-color: #d2a0d2;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 50px auto;
+    box-shadow: 0 2px 5px rgba(172, 83, 135, 0.2);
+}
+
+.registration-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #4a154b;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #4a154b;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #944981;
+    box-sizing: border-box;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #92228e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+    background-color: #7b1d77;
+}
